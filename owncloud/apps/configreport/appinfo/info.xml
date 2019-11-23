@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info>
+	<id>configreport</id>
+	<name>Admin Config Report</name>
+	<description>Generate a Config Report</description>
+	<licence>AGPL</licence>
+	<author>owncloud.org</author>
+	<version>0.2.0</version>
+	<namespace>ConfigReport</namespace>
+	<default_enable/>
+	<types>
+		<filesystem/>
+	</types>
+	<dependencies>
+		<owncloud min-version="10.2" max-version="11" />
+	</dependencies>
+	<default_enable/>
+	<commands>
+		<command>OCA\ConfigReport\Command\ConfigReport</command>
+	</commands>
+	<settings>
+		<admin>OCA\ConfigReport\AdminPanel</admin>
+	</settings>
+</info>
